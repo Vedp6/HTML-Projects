@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration System</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>Student Registration System</h1>
+      <p>HTML practice mini project</p>
+    </header>
+
+    <hr />
+
+    <!-- Navigation Section -->
+    <nav>
+      <a href="#Home">Home</a> | <a href="#Registration">Registration</a> |
+      <a href="#Courses">Courses</a> |
+      <a href="#Contact">Contact</a>
+    </nav>
+
+    <hr />
+
+    <!-- Home Section -->
+    <section id="Home">
+      <h2>Welcome</h2>
+      <p>
+        This is a simple Student Registration Website created using
+        <strong>HTML only</strong>. It is designed for beginners to practice
+        HTML tags, forms, and structure.
+      </p>
+
+      <details>
+        <summary>Why this project?</summary>
+        <p>• Practice Forms</p>
+        <p>• Understand HTML structure</p>
+        <p>• Improve confidence in web development</p>
+      </details>
+    </section>
+
+    <hr />
+
+    <!-- Registration Section -->
+    <section id="Registration">
+      <h2>Student Registration Form</h2>
+
+      <form>
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label>Full Name:</label><br />
+          <input
+            type="text"
+            placeholder="Enter your name"
+            required
+          /><br /><br />
+
+          <label>Date of Birth:</label><br />
+          <input type="date" required /><br /><br />
+
+          <label>Gender:</label><br />
+          <input type="radio" name="Gender" />Male
+          <input type="radio" name="Gender" />Female
+          <input type="radio" name="Gender" />Other <br /><br />
+
+          <label>Email:</label><br />
+          <input
+            type="email"
+            placeholder="example@gmail.com"
+            required
+          /><br /><br />
+
+          <label>Phone Number:</label><br />
+          <input
+            type="tel"
+            placeholder="10-digit number"
+            required
+          /><br /><br />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Academic Information</legend>
+
+          <label>Course</label><br />
+          <select>
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>BSc</option>
+            <option>BTech</option>
+            <option>MCA</option></select
+          ><br /><br />
+
+          <label>Year:</label><br />
+          <select>
+            <option>Select Year</option>
+            <option>First Year</option>
+            <option>Second Year</option>
+            <option>Third Year</option></select
+          ><br /><br />
+
+          <label>Skills:</label><br />
+          <input type="checkbox" name="HTML" />HTML
+          <input type="checkbox" name="CSS" />CSS
+          <input type="checkbox" name="JavaScript" />Javascript
+          <input type="checkbox" name="Python" />Python <br /><br />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Address</legend>
+
+          <label>Address:</label><br />
+          <textarea rows="4" cols="30"></textarea><br /><br />
+
+          <label>City:</label><br />
+          <input type="text" required /><br /><br />
+
+          <label>State:</label><br />
+          <input type="text" required /><br /><br />
+
+          <label>Pincode:</label><br />
+          <input type="number" /><br /><br />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Account Details</legend>
+
+          <label>Username:</label><br />
+          <input type="text" /><br /><br />
+
+          <label>Password:</label><br />
+          <input type="number" /><br /><br />
+        </fieldset>
+        <br />
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- Courses Section -->
+    <section id="Courses">
+      <h2>Available Courses</h2>
+
+      <table border="1" cellpadding="10">
+        <tr>
+          <th>Courses</th>
+          <th>Duration</th>
+          <th>Fees</th>
+        </tr>
+        <tr>
+          <td>BCA</td>
+          <td>3 Years</td>
+          <td>₹60,000</td>
+        </tr>
+        <tr>
+          <td>BSc</td>
+          <td>3 Years</td>
+          <td>₹50,000</td>
+        </tr>
+        <tr>
+          <td>BTech</td>
+          <td>4 Years</td>
+          <td>₹1,20,000</td>
+        </tr>
+        <tr>
+          <td>MCA</td>
+          <td>2 Years</td>
+          <td>₹80,000</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr />
+
+     <!-- Contact Section -->
+    <section id="Contact">
+      <h2>Contact Us</h2>
+
+      <p><strong>Institute Name:</strong> ABC Institute of Technology</p>
+      <p><strong>Email:</strong> info@abcinstitute.com</p>
+      <p><strong>Phone:</strong> +91 9876543210</p>
+
+      <h3>Send a Message</h3>
+      <form>
+        <label>Your Name:</label><br />
+        <input type="text" /><br /><br />
+
+        <label>Your Message:</label><br />
+        <textarea rows="4" cols="30"></textarea><br /><br />
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <hr />
+
+    <!-- Footer Section -->
+    <footer>
+      <p>© 2026 Student Registration System</p>
+      <p>Created by Vedant | HTML Practice Project</p>
+    </footer>
+  </body>
+</html>
